@@ -1,0 +1,55 @@
+.UserAvatarFour .GuestCardOneSection{
+    text-align: center;
+
+}
+
+.UserAvatarFour  a{
+    text-decoration: none;
+}
+
+.UserAvatarFour  a:hover{
+    text-decoration: none;
+}
+
+
+ .UserAvatarFour .GuestCardOneSection .GuestCardOneTitle{
+     margin: 0;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+     color: #0B132B;
+     text-align: center;
+     margin-top: 12px;
+ }
+
+ .UserAvatarFour .GuestCardOneSection  .GuestCardOneDesignation{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4C5E67;
+    margin-bottom: 4px;
+    text-align: center;
+    margin-top: 2px;
+ }
+
+
+ .UserAvatarFour .GuestCardOneSection .GuestCardOneImgCol {
+    background: #fff;
+    width: 214px;
+    height: 214px;
+    border: #E4E8EC 1px solid;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.UserAvatarFour .GuestCardOneSection .GuestCardOneImgCol img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+ 
+ 
+ 
+ 

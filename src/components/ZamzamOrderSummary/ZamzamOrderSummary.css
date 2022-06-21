@@ -1,0 +1,125 @@
+.OrderSummaryMainContainer {
+    position: relative
+}
+
+
+
+.OrderSummaryMainContainer .OrderSummaryTitle {
+    color: #4C5E67;
+    font-size: 16;
+    border-bottom: #B0B9C1 1px solid;
+    padding-bottom: 8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.OrderSummaryMainContainer .itemContainer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #E4E8EC 1px solid;
+    align-items: center;
+    height: 56px;
+}
+
+.OrderSummaryMainContainer .itemListing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+}
+
+.OrderSummaryMainContainer .itemText {
+    color: #1B2121;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width:auto;
+}
+
+.OrderSummaryMainContainer .editButton {
+    color: #0590FA;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: initial;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.OrderSummaryMainContainer .itemListText{
+    color: #4C5E67;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.OrderSummaryMainContainer .itemAmountText {
+    color: #4C5E67;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+
+.OrderSummaryMainContainer .itemListContainer{
+    margin-top: 20px
+}
+
+.OrderSummaryMainContainer .itemBlueText{
+    color: #0590FA;
+}
+
+.OrderSummaryMainContainer .infoIcon{
+    color: #B0B9C1;
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.OrderSummaryMainContainer .FieldContainer{
+    position: relative;
+}
+
+.OrderSummaryMainContainer .TextField{}
+
+.OrderSummaryMainContainer .ButtonApply{
+    color: #0590FA;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: initial;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    right:8px;
+    top:15px;
+
+   
+}
+
+.OrderSummaryMainContainer .ButtonApply:hover{
+    background-color:transparent;
+  }
+
+
+  .OrderSummaryMainContainer .TotalContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:32px;
+    padding-top:20px;
+    border-top: #E4E8EC 1px solid;
+}
+
+.OrderSummaryMainContainer .TotalText {
+    color: #1B2121;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.OrderSummaryMainContainer .TotalAmount{
+    color: #1B2121;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}

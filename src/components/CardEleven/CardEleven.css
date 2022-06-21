@@ -1,0 +1,87 @@
+.CardEleven .CardElevenInfoContainer{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+
+.CardEleven .CardElevenInfoContainer .CardElevenavatar {
+	height: 172px;
+	overflow: hidden;
+	position: relative;
+}
+
+.CardEleven .CardElevenInfoContainer .CardElevenavatar img {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+}
+
+.CardEleven .CardElevenInfoContainer .CardElevenhover_over{
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.CardEleven .CardElevenInfoContainer .CardOneboxed-grey:hover .CardElevenhover_over{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity:0.73;
+	
+	
+}
+
+.CardEleven .CardElevenInfoContainer .CardElevenDetails{
+	padding: 20px;
+}
+
+.CardEleven .CardElevenInfoContainer .CardElevenDesBox{
+    padding: 20px 0px;
+    padding-bottom: 0;
+}
+
+.CardEleven .CardElevenInfoContainer .CardElevenDetails h2 {
+    font-size: 20px;
+    margin: 0 !important;
+}
+
+
+.CardEleven .CardElevenInfoContainer .CardElevenreadmore {
+    display: flex;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0;
+    align-items: center;
+}
+
+.CardEleven:hover .CardElevenInfoContainer .CardElevenreadmore {
+    color:#635BFF !important;
+}
+
+.CardEleven .CardElevenInfoContainer .CardElevenreadmore svg{
+	font-size: 15px !important;
+	margin-left: 4px;
+}
+
+.CardEleven .CardElevenInfoContainer .CardElevenboxed-grey:hover {
+  box-shadow: -1px 9px 23px -7px hsla(0, 0%, 0%, 0.45);
+  transition: all 1s ease 0s;
+}
+
+.CardEleven .bottomLine{
+    height: 4px;
+}
+
+.border{
+    border: #E4E8EC 1px solid;
+}
+
+.CardEleven:hover .underline{
+    text-decoration: underline;
+}
+

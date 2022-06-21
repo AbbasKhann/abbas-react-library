@@ -1,0 +1,43 @@
+.CTAOne{
+    position: relative;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.CTAOne h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    margin: 0;
+}
+
+.CTAOne p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.CTAOne a{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size:14px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.CTAOne a svg {
+    font-size: 19px;
+    margin-left: 4px;
+    position: relative;
+    top: 1px;
+}

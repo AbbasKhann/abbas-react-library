@@ -1,0 +1,94 @@
+.CardOneMainContainer .CardOneMainInfoContainer{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.CardOneMainContainer .CardOneMainInfoContainer .CardOneInner{
+	border:#CCC 1px solid;
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOneavatar {
+	height: 172px;
+	overflow: hidden;
+	position: relative;
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOneavatar img {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOnehover_over{
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOneboxed-grey:hover .CardOnehover_over{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity:0.73;
+	
+	
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOneDetails{
+	background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOneDesBox{
+    padding: 15px;
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOneDetails h2{
+	color: #0B132B;
+	font-size: 14px;
+    text-transform: uppercase;
+    background:#F3F8FC;
+    padding:12px 15px;
+    margin: 0 !important;
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOneparagraph {
+    color: #676C7B;
+    font-size: 13px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    text-align: left;
+    text-transform: inherit !important;
+    line-height: 20px;
+    letter-spacing: 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOnereadmore {
+  color: hsl(0, 0%, 20%);
+  display: flex;
+  font-size: 14px;
+  margin-right: 19px;
+  padding-bottom: 8px;
+  text-align: left;
+  width: 120px;
+  font-weight: 500;
+  text-decoration: none;
+  align-items: center;
+  margin-top: 18px;
+
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOnereadmore svg{
+	font-size: 15px !important;
+	margin-left: 4px;
+}
+
+.CardOneMainContainer .CardOneMainInfoContainer .CardOneboxed-grey:hover {
+  box-shadow: -1px 9px 23px -7px hsla(0, 0%, 0%, 0.45);
+  transition: all 1s ease 0s;
+}
+

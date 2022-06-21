@@ -1,0 +1,225 @@
+.WebHeaderContainer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0 4px 2px -2px #0000000f;
+    position: relative;
+    background-color: #fff;
+}
+
+.MuiIconButton-label .MuiSvgIcon-root{
+    color: #000;
+}
+
+.WebHeaderContainer .WebsiteHeaderLogo {
+    max-width: 188px;
+    margin-right: 75px;
+    margin-left: 30px;
+}
+
+.WebHeaderContainer .WebsiteHeaderLogo img{
+    max-width: 188px;
+} 
+
+.WebHeaderContainer .ManuRightCol {
+    
+}
+
+.WebHeaderContainer .headerMenuLinks .menu-li-container{
+    cursor: pointer;
+}
+
+.WebHeaderContainer .headerMenuLinks .menu-li-container .MuiListItem-gutters {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    width: auto;
+    float: left;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.WebHeaderContainer .TopHeaderContaier{
+    border-bottom: #E4E8EC 1px solid;
+    display: flex;
+    padding: 14px 0;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.WebHeaderContainer .TopHeaderContaier .TopHeaderdDataCol{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.WebHeaderContainer .TopHeaderContaier .TopHeaderdDataCol svg{
+    color: #A4A7B0;
+    margin-right: 14px;
+}
+
+.WebHeaderContainer .TopHeaderContaier .TopHeaderdDataCol .Th-Label{
+    color: #676C7B;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.WebHeaderContainer .TopHeaderContaier .TopHeaderdDataCol .Th-Text{
+    color: #0B132B;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.WebHeaderContainer .TopHeaderContaier .TpHrButton{
+    border: #56B149 1px solid;
+    color:#56B149 ;
+    padding: 10px 16px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 4px;
+
+}
+
+.WebHeaderContainer .TopHeaderContaier .TpHrButton:hover{
+    text-decoration: none;
+    border: #fff 1px solid;
+    color:#fff ;
+    background:#56B149;
+
+}
+
+.headerMenuLinks{
+    padding-right: 20px;
+    position: relative;
+}
+
+.headerMenuLinks .menu-li-container {
+    font-size:14px;
+    color: #1B2121;
+    display: flex;
+    align-items: center;
+    
+}
+
+.headerMenuLinks .menu-li-container a{
+    font-size:14px;
+    color: #1B2121;
+    padding: 15px 18px; 
+    position: relative; 
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.headerMenuLinks .menu-li-container a svg {
+    position: absolute;
+    right: -8px;
+    font-size: 21px;
+}
+
+.headerMenuLinks .menu-li-container a:hover{
+    font-size:14px;
+    color: #56B149;
+    padding: 15px 18px; 
+    position: relative;
+    text-decoration: none; 
+}
+
+
+.MuiPopover-paper {
+    outline: 0;
+    position: absolute;
+    max-width: calc(100% - 32px);
+    min-width: 16px;
+    max-height: calc(100% - 32px);
+    min-height: 16px;
+    overflow-x: hidden;
+    overflow-y: hidden!important;
+    margin-top: 47px;
+    padding: 0px;
+    margin-left: -100px;
+}
+
+.MuiPopover-paper .MuiMenu-list a{
+    font-size:14px;
+    color: #1B2121;
+    padding: 10px 18px; 
+    position: relative; 
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.MuiPopover-paper .MuiMenu-list a:hover{
+    color: #56B149;
+    text-decoration: none;
+    background: #F7F9FA; 
+}
+
+
+.MuiPopover-paper .MuiList-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.WebHeaderContainer .MuiList-padding{
+    padding-top: 0px !important;
+    padding-bottom: 0 !important;
+}
+
+@media (max-width: 1050px){
+    .WebHeaderContainer .headerMenuLinks .menu-li-container .MuiListItem-gutters {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .WebHeaderContainer .TopHeaderContaier .TpHrButton {
+        min-width: 190px;
+    }
+
+    .WebHeaderContainer .WebsiteHeaderLogo {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 950px){
+    
+    .WebHeaderContainer{
+        display: block;
+        padding-top: 20px;
+        box-shadow: none;
+    }
+
+    .WebHeaderContainer .WebsiteHeaderLogo {
+        max-width: 168px;
+        margin-right: 0;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .headerMenuLinks {
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .WebHeaderContainer .TopHeaderContaier {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 850px){
+    .WebHeaderContainer{
+        display: none;
+    }
+}
+
+.headerMenuLinks .MuiPaper-root.MuiMenu-paper {
+    margin-top: 35px !important;
+}

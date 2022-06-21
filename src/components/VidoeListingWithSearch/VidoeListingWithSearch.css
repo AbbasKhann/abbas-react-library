@@ -1,0 +1,137 @@
+.VidoeListingWithSearchMainContainer{
+    border: #E4E8EC 1px solid;
+ }
+ 
+ .VidoeListingWithSearchMainContainer .VidoeListingBody{
+     padding: 15px;
+     background: #F4F9FC;
+ }
+
+ .VidoeListingWithSearchMainContainer a{
+     text-decoration:none;
+     cursor: pointer;
+ }
+
+ .VidoeListingWithSearchMainContainer a:hover{
+    text-decoration:none;
+}
+
+
+ .VidoeListingWithSearchMainContainer .VideoColTwo{
+     position: relative;
+     background: #fff;
+ }
+ 
+ .VidoeListingWithSearchMainContainer .VideoColTwo{
+     display: flex;
+ }
+
+ 
+ .VidoeListingWithSearchMainContainer .VideoColTwo .videoImgTwo {
+    max-width: 83px;
+    min-width: 83px;
+    max-height: 100%;
+    position: relative;
+}
+ .VidoeListingWithSearchMainContainer .VideoColTwo .videoImgTwo .vidoeTwoimg{
+     object-fit:cover;
+     width: 100%;
+     height: 100%;
+ }
+
+ .VidoeListingWithSearchMainContainer .VideoColTwo .videoImgTwo .vidoeTwoicon {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    z-index: 1;
+}
+
+.VidoeListingWithSearchMainContainer .VideoColTwo .videoImgTwo .vidoeTwoOverlay {
+    background: #000;
+    position: absolute;
+    opacity: 0.4;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.VidoeListingWithSearchMainContainer .VideoColTwo .videoDetailsTwo {
+    padding: 11px;
+    flex: 1;
+}
+
+.VidoeListingWithSearchMainContainer .VideoColTwo .videoDetailsTwo .videoDetailsTwoTitle {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #0B132B;
+    margin-bottom: 4px;
+    letter-spacing: 0;
+}
+
+ .VidoeListingWithSearchMainContainer .VideoColTwo .videoDetailsTwo .videoDetailsTwoSubTitle{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #676C7B;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+ }
+ 
+ .VidoeListingWithSearchMainContainer .VideoColTwo .videoDetailsTwo .videoLocationTwo{
+     margin: 0;
+     display: flex;
+     align-items: center;
+ }
+ 
+ 
+ 
+ .VidoeListingWithSearchMainContainer .VideoColTwo .videoDetailsTwo .videoLocationTwo .videoLocationTwoText{
+     margin: 0;
+     font-size: 10px !important;
+     font-weight: 400;
+     line-height: 16px;
+     color: #A4A7B0;
+     display: flex;
+     margin-bottom: 17px;
+     align-items: center;
+     margin: 0;
+     text-transform: uppercase;
+     margin-right: 10px;
+ }
+ 
+ .VidoeListingWithSearchMainContainer .VideoColTwo .videoDetailsTwo .videoLocationTwo .videoLocationTwoText svg{
+     margin-right: 4px;
+     font-size: 16px;
+     color: #A4A7B0;
+ }
+ 
+ .nomargin{
+     margin-top: 0  !important;
+ }
+
+ .VidoeListingCardTwoBorderLine{
+     background: #E4E8EC;
+     height: 1px;
+     width: 100%;
+     margin-top: 10px;
+ }
+
+
+ .VidoeListingSearchMainContainer{
+     background: #E8EFF4;
+     padding: 10px;
+ }
+
+
+ @media (max-width: 450px){
+    .VidoeListingWithSearchMainContainer .VideoColTwo .videoImgTwo .vidoeTwoicon {
+        top: 25px;
+    }
+ }
+ 
+ 

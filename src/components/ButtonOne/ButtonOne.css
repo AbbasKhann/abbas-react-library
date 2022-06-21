@@ -1,0 +1,21 @@
+
+
+.MsInputButtonMainContainer .MsInputButton {
+    font-size: 14px !important;
+    text-transform: uppercase;
+    padding: 0px 23px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    box-shadow: none !important;
+}
+
+.MsInputButtonMainContainer .MsInputButton svg{
+	font-size: 17px;
+    margin-left: 4px;
+}
+
+.MsInputButtonMainContainer .DonationHandIcon {
+    width: 24px;
+    margin-right: 6px;
+}

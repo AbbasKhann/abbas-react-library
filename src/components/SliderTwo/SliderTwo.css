@@ -1,0 +1,151 @@
+.SliderTwo{
+    position: relative;
+}
+
+.SliderTwo .bannerContentsWrapper {
+    width: 100%; 
+}
+
+.SliderTwo .bannerContentsContainer{
+    
+
+}
+
+.SliderTwo .bannerContentsBG {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.SliderTwo .carousel .slide .bannerContents {
+    position: absolute;
+    z-index: 99;
+    padding: 30px;
+    left: 0;
+    bottom: 10px;
+}
+
+.SliderTwo .bannerContents h1 a {
+    display: block;
+    color: #fff;
+    padding: 0px;
+    font-size: 28px;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.SliderTwo .bannerContents .SldierReadBtn{
+    text-align: left;
+}
+
+.SliderTwo .bannerContents .SldierReadBtn a {
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+    font-weight: 500;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 999;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 10px 26px;
+    padding-bottom: 13px;
+    
+}
+
+.SliderTwo .bannerContents .SldierReadBtn a svg {
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    left: 5px;
+    top: 4px;
+}
+
+.SliderTwo .control-dots{
+    display: none;
+}
+
+.SliderTwo .carousel .control-next.control-arrow {
+    color: #fff;
+    font-size: 26px;
+    margin-top: 0;
+    padding: 5px;
+    width: 34px;
+    height: 34px;
+    right: 100px !important;
+    bottom: 50px;
+    position: absolute;
+    opacity: 1;
+    background: transparent !important;
+    left: auto;
+    top: auto;
+}
+
+.SliderTwo .carousel .control-prev.control-arrow  {
+    color: #fff;
+    font-size: 26px;
+    margin-top: 0;
+    padding: 5px;
+    width: 34px;
+    height: 34px;
+    right: 50px !important;
+    bottom: 50px;
+    position: absolute;
+    opacity: 1;
+    background: transparent !important;
+    left: auto;
+    top: auto;
+}
+
+.SliderTwo .control-prev:before {
+    background:#005AFF url(./arrow-next.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    border-radius: 100%;
+    background-position: 5px 5px;
+}
+
+.SliderTwo .control-next:before {
+    background:#005AFF url(./arrow-prev.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    border-radius: 100%;
+    background-position: 5px 5px;
+}
+.carousel .carousel-status{
+    display: none;
+}
+
+
+@media (max-width:768px){
+    .SliderTwo  .bannerContentsWrapper {
+        position: relative;
+    }
+
+    .SliderTwo  .bannerContentsBG {
+        opacity: 1;
+    }
+    .SliderTwo  .bannerContents h1 {
+        font-size: 20px;
+    }
+
+}

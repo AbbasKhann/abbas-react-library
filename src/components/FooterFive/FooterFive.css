@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.FooterFiveMainContainer{
+    padding: 20px 0px;
+}
+
+.FooterFiveMainContainer .FooterFiveContainer{
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.FooterFiveMainContainer .FooterFiveRowOne{
+   
+}
+
+
+.FooterFiveMainContainer .FooterFiveOrgTitle{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 12px;
+}
+
+.FooterFiveMainContainer  .FooterFiveOrgParagraph{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    margin: 0 !important;
+}
+
+.FooterFiveMainContainer .FooterFiveListinCol {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.FooterFiveMainContainer .FooterFiveListinCol .FooterFiveListingInfo {
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.FooterFiveMainContainer  .FooterFiveListinCol .FooterFiveListingInfo .FooterFiveListingTitle{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 6px;
+    line-height: 20px;
+}
+
+.FooterFiveMainContainer  .FooterFiveListinCol .FooterFiveListingInfo .FooterFiveListingSubTitle{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 16px;
+    opacity: 0.6;
+}
+
+.FooterFiveMainContainer .FooterFiveListinCol .FooterFiveListingIcon {
+    margin-right: 14px;
+    position: relative;
+    top: -2px;
+}
+
+.FooterFiveMainContainer .FooterFiveSocial {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.FooterFiveMainContainer .FooterFiveSocial a {
+    min-width: 60px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin-right: 12px;
+}
+
+.FooterFiveMainContainer .FooterFiveSocial a img{
+    width: 56px;
+}
+
+.FooterFiveMainContainer .FooterFiveBorder{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.FooterFiveMainContainer .FooterFiveRowTwo{
+    margin-top: 30px;
+}
+
+
+
+
+
+/* .FooterFiveColform .MuiInputLabel-outlined{
+    color: #fff;
+} */
+
+.FooterFiveColSubText {
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.FooterFiveTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+.FooterFiveTopLeft img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.FooterFiveLink a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 16px;
+    display: block;
+
+}
+
+.FooterFiveColTitle {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+    display: inline-block;
+    padding: 4px 8px;
+}
+
+.FooterFiveColTitleBottom{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #4267B2;
+    margin: 0;
+}
+
+.FooterFiveMainContainer .PrivacySection{
+    
+}
+
+.FooterFiveMainContainer .PrivacySection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FooterFiveMainContainer .PrivacySection a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.FooterFiveMainContainer .PrivacySection a:hover{
+    text-decoration: underline;
+}
+
+.FooterFiveMainContainer .PrivacySection span{
+    display: inline-block;
+    margin: 0 15px;
+    opacity: 0.6;
+}
+
+.FooterFiveMainContainer .PrivacySectionRight{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.footerFiveAboutText p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    
+}
+
+.FooterFiveListingContactInfo{
+    padding-bottom: 24px;
+}
+
+.FooterFiveListingContactInfo h3{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+}
+
+.FooterFiveListingContactInfo p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+}
+
+.FooterFiveListingContactInfo a{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    display: flex;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.FooterFiveListingContactInfo a svg{
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+    margin-left: 8px;
+}
+.FooterFiveMainContainer .SlatTableFooter{
+    padding-left: 0;
+}

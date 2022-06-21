@@ -1,0 +1,63 @@
+
+.TitleTwoContainer{
+    
+}
+
+  .TitleTwoContainer .TitleTwoTextContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .TitleTwoContainer .TitleTwoTextContainer h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 4px 8px;
+}
+  .TitleTwoContainer .TitleTwoReadMoreBtn {
+    border-radius: 4px !important;
+    color: hsl(0, 0%, 20%) !important;
+    font-size: 14px !important;
+    height: 50px;
+    letter-spacing: 1px !important;
+    text-align: center;
+    text-transform: uppercase !important;
+	font-weight: 700 !important;
+	padding: 0 24px !important;
+}
+
+.TitleTwoContainer .read_more_btn svg {
+    font-size: 15px;
+    margin-left: 3px;
+    position: relative;
+    top: -1px;
+}
+
+.TitleTwoContainer .read_more_btn:hover{
+	background:#0053a5 !important;
+	border: 1px solid #0052a5 !important;
+	color:#FFF !important;
+}
+
+
+.TitleTwoContainer .TitlOneeLine{
+    height: 2px;
+    display: block;
+}
+
+.TitleTwoContainer .MsInputButtonMainContainer .MsInputButton {
+    padding: 0 !important;
+    text-transform: initial !important;
+}
+
+@media (max-width: 768px){
+    .TitleTwoContainer{
+        display: block;
+    }
+
+
+}

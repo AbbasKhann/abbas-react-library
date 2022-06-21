@@ -1,0 +1,118 @@
+
+
+.contactinfoContainer{
+    position: relative;
+}
+
+.ContactInfoOne .contactinfoContainer .contactinfoTitle{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.ContactInfoOne .ContactIfoListContainer{
+    margin-top: 12px;
+}
+
+.ContactInfoOne .ContactIfoListContainer .ContactIfoList {
+    color: #0B132B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.ContactInfoOne .ContactIfoListContainer .ContactIfoList svg {
+    color: #5e6474;
+    font-size: 21px;
+    margin-right: 10px;
+}
+.ContactInfoOne .ContactIfoListContainer .ContactIfoList span{
+    font-weight: 600;
+
+}
+
+.ContactInfoOne .masterLiSocialLinks a{
+	display: inline-block;
+	margin: 15px 4px;
+}
+
+.ContactInfoOne .masterLiSocialLinks a img{
+	width: 44px;
+}
+
+.ContactInfoOne .ContactIfoAddressContainer .ContactIfoAddressCard{
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.ContactInfoOne .ContactIfoAddressContainer .ContactIfoAddressCard .ContactIfoAddressCol{
+    color: #56B149;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.ContactInfoOne .ContactIfoAddressContainer .ContactIfoAddressCard .ContactIfoNameCol{
+    color: #0B132B;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.ContactInfoOne .ContactIfoAddressContainer .ContactIfoAddressCard .ContactIfoNumberCol{
+    color: #0B132B;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.ContactInfoOne .whatsappIcon {
+    position: fixed;
+    right: 20px;
+    bottom: 14px;
+}
+
+
+.ContactInfoOne .whatsappIcon img{
+    width: 68px;
+}
+
+.ContactInfoOne .contactFormContainer .MuiGrid-root{
+    margin-bottom: 10px !important;
+}
+
+.ContactInfoOneImg {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.ContactInfoOneImg img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+@media (max-width: 800px){
+    
+    
+
+    
+}
+

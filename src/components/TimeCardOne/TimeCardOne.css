@@ -1,0 +1,31 @@
+
+.TimeCardOneMainContainer .TimeCardOneTopText{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.TimeCardOneMainContainer .TimeCardOneCard{
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0px 12px 17px #00000017;
+    padding-bottom: 30px
+}
+
+.TimeCardOneMainContainer .TimeCardOneCardTime{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.TimeCardOneMainContainer .TimeCardOneCardTimeFormate{
+    font-size: 24px;
+    text-align: center;
+}
+
+.TimeCardOneMainContainer .TimeCardOneTopBorderLine{
+    height: 2px;
+}
+
+.TimeCardOneMainContainer .TimeCardOneCardIcon{
+    font-size: 24px;
+}

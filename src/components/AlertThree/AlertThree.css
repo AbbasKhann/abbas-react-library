@@ -1,0 +1,99 @@
+.AlertThree{
+    margin-right: 8px;
+    position: relative;
+    width: 100%; 
+    
+}
+
+.AlertThree .AlertThreeInner{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    justify-content: space-around;
+}
+
+.AlertThree .AlertThreeInner .react-swipeable-view-container{
+    overflow-y: visible;
+}
+
+.AlertThree .AlertThreeInner .AlertThreeRight{
+    display: flex;
+    align-items: center;
+}
+
+.AlertThree .AlertThreeInner .AlertThreeRight .closeIcon{
+    margin-left: 70px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.AlertThree .AlertThreeInner .AlertThreeRight .closeIcon:hover{
+opacity: 0.5;
+}
+
+.AlertThree .AlertThreeRight .MuiMobileStepper-root {
+    background: none;
+}
+
+.AlertThree .AlertThreeRight .arrow{
+    color: #fff;
+    width:24px;
+    height: 24px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.AlertThree .AlertThreeRight .arrow:hover{
+    opacity: 0.8;
+}
+
+.AlertThree .AlertThreeRight .arrow svg{
+    font-size: 20px;
+}
+
+.AlertThree .AlertThreeLeft {
+    display: flex;
+    align-items: flex-start;
+}
+
+.AlertThree .AlertThreeLeft .AlertThreeleftIcon{
+    width: 24px;
+    margin-right:14px;
+}
+
+.AlertThree .AlertThreeLeftcontents{
+    max-width: 665px;
+}
+
+.AlertThree .AlertThreeLeftcontents h3{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.AlertThree .AlertThreeLeftcontents p{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.AlertThree .AlertThreeLeftcontents a{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+
+.AlertThree .AlertThreeLeftcontents a svg{
+    position: relative;
+    top: 8px;
+}
+
+

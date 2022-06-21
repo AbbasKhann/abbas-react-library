@@ -1,0 +1,32 @@
+.ImageGridFour{
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.ImageGridFour .GridCol {
+    max-height: 270px;
+    max-width: 270px;
+    margin: 5px;   
+}
+
+.ImageGridFour .GridCol img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    
+}
+
+@media(max-width: 500px){
+    .ImageGridFour .GridCol {
+        max-height: initial;
+        max-width: initial;
+        width: 100%;  
+    }
+}
+
+
+

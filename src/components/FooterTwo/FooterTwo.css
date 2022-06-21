@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.FooterTwoMainContainer{
+    padding: 40px 0px;
+}
+
+.FooterTwoMainContainer .FooterTwoContainer{
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.FooterTwoMainContainer .FooterTwoRowOne{
+   
+}
+
+
+.FooterTwoMainContainer .FooterTwoCol .FooterTwoColTitle{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif !important;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.FooterTwoMainContainer .FooterTwoCol .FooterTwoColParagraph{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 20px;
+    opacity: 0.6;
+    margin: 0 !important;
+    margin-bottom: 33px !important;
+}
+
+.FooterTwoMainContainer .FooterTwoListinCol {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.FooterTwoMainContainer .FooterTwoListinCol .FooterTwoListingInfo {
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.FooterTwoMainContainer  .FooterTwoListinCol .FooterTwoListingInfo .FooterTwoListingTitle{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif !important;
+    margin-bottom: 6px;
+    line-height: 20px;
+}
+
+.FooterTwoMainContainer  .FooterTwoListinCol .FooterTwoListingInfo .FooterTwoListingSubTitle{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 16px;
+    opacity: 0.6;
+}
+
+.FooterTwoMainContainer .FooterTwoListinCol .FooterTwoListingIcon {
+    margin-right: 14px;
+    position: relative;
+    top: -2px;
+}
+
+.FooterTwoMainContainer .FooterTwoSocial {
+    display: flex;
+    align-items: center;
+}
+
+.FooterTwoMainContainer .FooterTwoSocial a {
+    border: 1px solid #0868C9;
+    min-width: 60px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin-right: 12px;
+}
+
+.FooterTwoMainContainer .FooterTwoSocial a img{
+    width: 24px;
+}
+
+.FooterTwoMainContainer .FooterTwoBorder{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.FooterTwoMainContainer .FooterTwoRowTwo{
+    margin-top: 30px;
+}
+
+.FooterTwoMainContainer .FooterTwoRowTwo .FooterTwoListingContactInfo .FooterTwoListingTitle{
+    font-size:14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif !important;
+    margin-bottom: 4px;
+}
+
+.FooterTwoMainContainer .FooterTwoRowTwo .FooterTwoLocatioIcon{
+    text-align: left;
+    margin-left: 35px;
+}
+
+.FooterTwoButtonContainer{
+    padding-top: 30px;
+}
+
+.FooterTwoMainContainer .FooterTwoListinCol:last-child {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0px !important;
+}
+
+/* .FooterTwoColform .MuiInputLabel-outlined{
+    color: #fff;
+} */
+
+.FooterTwoColSubText {
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 17px;
+}

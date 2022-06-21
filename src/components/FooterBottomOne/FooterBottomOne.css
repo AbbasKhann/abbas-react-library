@@ -1,0 +1,112 @@
+
+.FooterMainBoxBottomMainContainer{}
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomGrey {
+    background: #FBFAFD;
+    padding: 15px;
+    border-top: #ebeaed 1px solid;
+    
+}
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomGrey .FooterMainBoxBottomGreyText {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #A4A7B0;
+}
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomGrey .FooterMainBoxBottomGreyText .FooterBottomtermlink { 
+    color: #A4A7B0;
+    text-decoration: none;
+}
+
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomGrey .FooterMainBoxBottomGreyText .FooterBottomtheartIcon {
+    color: #828282;
+    font-size: 15px !important;
+    vertical-align: middle;
+}
+
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomWhite{
+   
+}
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomWhite .FooterMainBoxBottomWhiteText{
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #A4A7B0;
+}
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomWhite .FooterMainBoxBottomdclogoftr { 
+    width: 130px;
+    margin-left: 5px;
+}
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomWhite .FooterMainBoxBottompweredText {
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    color: #828282;
+    align-items: center;
+    font-size: 12px;
+}
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomWhite .FooterMainBoxBottompweredText span{
+   position: relative;
+   top: -2px;
+}
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomWhite .visitUs {
+    text-align: right;
+    color: #828282;
+    text-decoration: none;
+}
+
+.FooterMainBoxBottomMainContainer .FooterMainBoxBottomWhite{
+    background: #fff;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+
+
+    .FooterMainBoxBottomMainContainer .FooterMainBoxBottomContainer {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .FooterMainBoxBottomMainContainer .FooterMainBoxBottomGrey {
+        display: block;
+        text-align: center;
+    }
+    .FooterMainBoxBottomMainContainer .FooterMainBoxBottomGrey .FooterMainBoxBottomGreyText {
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    .FooterMainBoxBottomMainContainer .FooterMainBoxBottomWhite {
+        display: block;
+    }
+
+    .FooterMainBoxBottomMainContainer .FooterMainBoxBottomWhite .FooterMainBoxBottomWhiteText {
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .FooterMainBoxBottomMainContainer .FooterMainBoxBottomWhite .FooterMainBoxBottompweredText {
+
+        margin-top: 10px;
+    }
+}

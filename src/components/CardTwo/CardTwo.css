@@ -1,0 +1,112 @@
+.CardTwoMainContainer .CardTwoMainInfoContainer{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTwoInner{
+	border:#CCC 1px solid;
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTwoavatar {
+	height: 172px;
+	overflow: hidden;
+	position: relative;
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTwoavatar img {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTwohover_over{
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTwoboxed-grey:hover .CardTwohover_over{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity:0.73;
+	
+	
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTwoDetails{
+	background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+    padding: 16px;
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTwoDesBox{
+    
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTwoDetails h2{
+	font-size: 14px;
+    margin: 0 !important;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTwoparagraph {
+    color: #676C7B;
+    font-size: 13px;
+    text-align: left;
+    text-transform: inherit !important;
+    line-height: 20px;
+    letter-spacing: 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTworeadmore {
+  color: hsl(0, 0%, 20%);
+  display: flex;
+  font-size: 14px;
+  margin-right: 19px;
+  padding-bottom: 8px;
+  text-align: left;
+  width: 120px;
+  font-weight: 500;
+  text-decoration: none;
+  align-items: center;
+  margin-top: 18px;
+
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTworeadmore svg{
+	font-size: 15px !important;
+	margin-left: 4px;
+}
+
+.CardTwoMainContainer .CardTwoMainInfoContainer .CardTwoboxed-grey:hover {
+  box-shadow: -1px 9px 23px -7px hsla(0, 0%, 0%, 0.45);
+  transition: all 1s ease 0s;
+}
+
+.CardTwoMainContainer .CardTwoDetails .name_box {
+    font-size: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
+    color: #A4A7B0;
+}
+
+.CardTwoMainContainer .CardTwoDetails .name_box span {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.CardTwoMainContainer .CardTwoDetails .name_box span svg {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
