@@ -17,9 +17,7 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "analyze": "size-limit --why"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -35,34 +33,26 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "abbas-react-library",
+  "name": "abbas-react-components",
   "author": "Muhammad Abbas",
-  "module": "dist/abbas-react-library.esm.js",
+  "module": "dist/abbas-react-components.esm.js",
   "size-limit": [
     {
-      "path": "dist/abbas-react-library.cjs.production.min.js",
+      "path": "dist/abbas-react-components.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/abbas-react-library.esm.js",
+      "path": "dist/abbas-react-components.esm.js",
       "limit": "10 KB"
     }
   ],
   "devDependencies": {
-    "@babel/core": "^7.18.5",
     "@size-limit/preset-small-lib": "^7.0.8",
-    "@storybook/addon-essentials": "^6.5.9",
-    "@storybook/addon-info": "^5.3.21",
-    "@storybook/addon-links": "^6.5.9",
-    "@storybook/addons": "^6.5.9",
-    "@storybook/react": "^6.5.9",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
-    "babel-loader": "^8.2.5",
     "husky": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
     "size-limit": "^7.0.8",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
